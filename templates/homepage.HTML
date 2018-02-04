@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href= "../static/css/css2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="../app.py"> -->
+
+<title> HOME PAGE </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header> Umm... So pick !</header>
+
+<ul>
+  <li><a href="{{url_for('homepage')}}">Home</a></li>
+  <li><a href="{{url_for('homepage')}}"">Keep Up With Fashion</a></li> <!-- jrbt asawe hek zy b3d lnas yretu yuzbut-->
+  <li class="dropdown">
+    <div>
+      <a href="{{url_for('dresses')}}">Dresses</a>
+      <a href="{{url_for('shoes')}}">Jeans</a>
+      <a href="{{url_for('shoes')}}">Shoes</a>
+    </div>
+  </li>
+</ul>
+
+
+
+  <h1>I'm looking for..</h1>
+  <h3>About the creator : Malak Lahham <br> Social Media :</h3> <br>
+  <a href="https://www.instagram.com/malaklah/?hl=en">
+  <img border="0" alt="socialmedia" src="../static/img/insta.png" width="70" height="70">
+  </a>
+   <a href="https://www.snapchat.com/add/malak67">
+  <img border="0" alt="socialmedia" src="../static/img/snapchat.png" width="70" height="70">
+  </a>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form class="comfeed" action="{{url_for('feedback')}}" method="post">
+	<input type="text", name="comment" placeholder="Feedback">
+	<input type="text" name="username" placeholder="Username">
+  <input type="submit" value="Submit" class="button">
+</form>
+
+     
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    /*background-image: url(../img/backgroundblurry.jpeg);*/
+    background-color: black;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+header {
+    background-image: url(../img/backgroundz.jpg);
+}
+h3 { 
+
+color : white;}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: beige;
+    color: rgba(201, 76, 76, 0.6);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+header {
+    color: rgba(201, 76, 76, 0.6);
+    text-align: center;
+    font-family: verdena;
+    font-size: 300%;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    color: rgb(255,182,193);
+    text-align: left;
+    font-family: initial;
+    font-size: 150%;
+}
+* {box-sizing:border-box}
+
+
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
