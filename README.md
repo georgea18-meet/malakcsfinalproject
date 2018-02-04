@@ -1,2 +1,0 @@
-# malakcsfinalproject
-# finalproject
